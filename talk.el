@@ -15,10 +15,9 @@
 		(demo-it-load-file "sage-mode-example.sage")
 		(demo-it-insert "### A graph\nG=graphs.PetersenGraph()\nG.show()\n" :instant)
 		delete-window
-		demo-it-presentation-advance
+		demo-it-presentation-return
 		"M-x gap"
-		delete-window
-		demo-it-presentation-advance
+		demo-it-presentation-return
 		demo-it-presentation-advance
 		demo-it-presentation-advance
 		;; (demo-it-load-file "elisp-example.el" :none)
