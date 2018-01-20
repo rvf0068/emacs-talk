@@ -1,0 +1,53 @@
+#+title: Emacs tools for math software development
+#+date: January 24, 2018
+#+author: Rafael Villarroel-Flores
+
+* Introduction
+
+  I am not a programmer, I am a mathematician that loves using
+  software and has learned some tricks.
+
+  Emacs is one of my favorite pieces of software (together with TeX,
+  Python, GAP, Sage and git).
+
+  All of them can be used inside Emacs.
+
+* Git -> magit
+
+   magit is an Emacs package that provides an interface to git.
+
+   For example, the development of this talk.
+
+* Org mode -> python
+
+  Hello this is the first
+
+  #+begin_src python
+from random import randint
+x=[]
+for i in range(5):
+    x.append([i,randint(1,20)])
+return x
+  #+end_src
+
+* matplotlib
+
+  #+begin_src python :results file
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+fig=plt.figure(figsize=(4.5,3))
+plt.plot([0,1,3,2])
+plt.savefig('myfig.png')
+return 'myfig.png'
+  #+end_src
+
+
+
+
+
+
+
+
+
+
