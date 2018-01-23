@@ -20,6 +20,7 @@
 		demo-it-presentation-return
 		demo-it-presentation-advance
 		demo-it-presentation-advance
+		(demo-it-load-file "org-babel-examples.org" :right :text-large)
 		;; (demo-it-load-file "elisp-example.el" :none)
 		;; ;; Start coding an Emacs Lisp function:
 		;; (demo-it-insert "addtopath")       ; Begin yasnippet template

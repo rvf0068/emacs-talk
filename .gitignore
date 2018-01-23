@@ -2,3 +2,7 @@ auto/
 /myfig.png
 /talk.pdf
 /talk.tex
+*.png
+/org-babel-examples.html
+/org-babel-examples.pdf
+/org-babel-examples.tex
