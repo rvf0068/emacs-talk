@@ -1,6 +1,7 @@
 (require 'demo-it)
 
 (setq org-tree-slide-slide-in-effect nil)
+(visual-line-mode 1)
 
 (demo-it-create :single-window
 		:fullscreen
@@ -18,8 +19,6 @@
 		demo-it-presentation-return
 		"M-x gap"
 		demo-it-presentation-return
-		demo-it-presentation-advance
-		demo-it-presentation-advance
 		(demo-it-load-file "org-babel-examples.org" :right :text-large)
 		;; (demo-it-load-file "elisp-example.el" :none)
 		;; ;; Start coding an Emacs Lisp function:
