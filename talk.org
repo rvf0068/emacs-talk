@@ -23,6 +23,16 @@
 
    For example, the development of this talk.
 
+   We can, among many other tasks:
+
+   - edit commits,
+
+   - create and checkout branches,
+
+   - push and pull,
+
+   - resolve conflicts
+
 * Sage mode
 
   =sage-shell-mode= is an alternative to the 'official' =sage-mode=.
